@@ -6,7 +6,9 @@ import gl51.service.ThumbnailService
 import gl51.service.WaterMarkService
 
 import javax.inject.Inject
+import javax.inject.Singleton
 
+@Singleton
 class ThumbnailServiceImpl implements ThumbnailService{
     @Inject WaterMarkService waterMarkService;
     @Inject PictureFetchService pictureFetchService;

@@ -5,7 +5,9 @@ import gl51.service.IPService
 import gl51.service.IpConverterService
 
 import javax.inject.Inject
+import javax.inject.Singleton
 
+@Singleton
 class BinaryConverterServiceImpl implements IpConverterService {
 
     @Inject

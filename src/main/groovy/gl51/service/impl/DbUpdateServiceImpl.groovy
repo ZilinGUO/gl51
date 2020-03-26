@@ -5,7 +5,9 @@ import gl51.service.DbUpdateService
 import gl51.service.PictureFetchService
 
 import javax.inject.Inject
+import javax.inject.Singleton
 
+@Singleton
 public class DbUpdateServiceImpl implements DbUpdateService {
 
     @Inject PictureFetchService pictureFetchService;
