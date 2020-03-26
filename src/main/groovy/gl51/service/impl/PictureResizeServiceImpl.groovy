@@ -6,6 +6,9 @@ import gl51.service.PictureFetchService
 import gl51.service.PictureResizeService
 import javax.inject.Inject
 
+import javax.inject.Singleton
+
+@Singleton
 class PictureResizeServiceImpl implements PictureResizeService{
     @Inject PictureFetchService pictureFetchService
 

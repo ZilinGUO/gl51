@@ -8,7 +8,9 @@ import gl51.service.ThumbnailService
 import gl51.service.WaterMarkService
 
 import javax.inject.Inject
+import javax.inject.Singleton
 
+@Singleton
 class CloudServiceImpl implements CloudService {
     @Inject ThumbnailService thumbnailService
     @Inject PictureResizeService pictureResizeService
